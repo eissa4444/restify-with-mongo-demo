@@ -1,0 +1,28 @@
+{
+  "name": "api-task",
+  "version": "1.0.0",
+  "description": "task",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eissa4444/restify-with-mongo-demo.git"
+  },
+  "keywords": [
+    "restify-with-mongo-demo"
+  ],
+  "author": "Muhamad Eissa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eissa4444/restify-with-mongo-demo/issues"
+  },
+  "homepage": "https://github.com/eissa4444/restify-with-mongo-demo#readme",
+  "dependencies": {
+    "bunyan-winston-adapter": "^0.2.0",
+    "restify-errors": "^4.3.0",
+    "winston": "^2.3.1"
+  }
+}
